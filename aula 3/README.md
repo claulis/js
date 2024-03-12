@@ -1,4 +1,4 @@
-## Aula Avançada de JavaScript: Controle de Fluxo e Operadores Lógicos
+# Controle de Fluxo e Operadores Lógicos
 
 Nesta aula vamos explorar em detalhes os conceitos de controle de fluxo em JavaScript, incluindo `if`, `if-else`, `if-else if` e `switch` estruturas aninhadas e operadores lógicos. Vamos fornecer exemplos detalhados para cada conceito.
 
