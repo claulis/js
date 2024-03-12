@@ -1,12 +1,12 @@
-# Aula: Declaração de Variáveis em JavaScript
+# Declaração de Variáveis em JavaScript
 
 
-### 1. Introdução às Variáveis em JavaScript:
+## 1. Introdução às Variáveis em JavaScript:
   Uma variável é um espaço em memória para armazenar valores de diferentes tipos de dados.
   Em JavaScript, as variáveis podem armazenar números, strings, booleanos, objetos, funções e outros tipos de dados. A declaração de variáveis em JavaScript é fundamental para a programação eficaz. Compreender os diferentes tipos de variáveis e escopos ajuda a escrever código mais limpo e eficiente.
 
 
-### 2. Declaração de Variáveis:
+## 2. Declaração de Variáveis:
    - Em JavaScript, existem três palavras-chave para declarar variáveis: `var`, `let` e `const`.
    - **`var`:**
      - Era a forma original de declarar variáveis em JavaScript.
@@ -22,7 +22,7 @@
      - Tem escopo de bloco, como `let`.
 
 
-### 3. Exemplos de Declaração de Variáveis:
+## 3. Exemplos de Declaração de Variáveis:
 ```javascript
 // Declaração usando var
 var x = 10;
@@ -44,7 +44,7 @@ const estudantes = ["Ana", "Carlos", "Pedro"];
 ```
 
 
-### 4. Boas Práticas na Declaração de Variáveis:
+## 4. Boas Práticas na Declaração de Variáveis:
    - Dê nomes significativos às variáveis para tornar o código mais legível e compreensível.
    - Evite o uso excessivo de variáveis globais, pois podem causar conflitos e dificultar a manutenção do código.
    - Prefira usar `const` sempre que possível para garantir imutabilidade, a menos que a variável precise ser reatribuída.
@@ -53,9 +53,9 @@ const estudantes = ["Ana", "Carlos", "Pedro"];
 
 Em JavaScript, os tipos de dados são categorias que definem os valores que podem ser armazenados e manipulados em um programa. JavaScript é uma linguagem de tipagem dinâmica, o que significa que o tipo de uma variável é determinado automaticamente em tempo de execução com base no valor que ela contém. Abaixo estão os principais tipos de dados em JavaScript:
 
-### 5. Tipos de dados
+## 5. Tipos de dados
 
-#### Tipos Primitivos
+### Tipos Primitivos
 
 1. **Número (`number`)**:
    - Representa números inteiros e de ponto flutuante (aqueles com vírgula). Negativos ou Positivos que sejam.
@@ -85,7 +85,7 @@ Em JavaScript, os tipos de dados são categorias que definem os valores que pode
    - Usado para criar identificadores únicos para propriedades de objetos.
    - Exemplo: `Symbol('foo')`.
 
-#### Tipos de Dados Compostos:
+### Tipos de Dados Compostos:
 
 1. **Objeto (`object`)**:
    - Estrutura de dados que pode armazenar múltiplos valores como pares chave-valor.
@@ -104,7 +104,7 @@ Em JavaScript, os tipos de dados são categorias que definem os valores que pode
    - Exemplo: `function soma(a, b) { return a + b; }`.
 
 
-### 5. Inferência de Tipos em JavaScript:
+## 6. Inferência de Tipos em JavaScript:
 
 JavaScript é uma linguagem de tipagem dinâmica, o que significa que não é necessário declarar explicitamente o tipo de uma variável. O tipo de uma variável é inferido automaticamente com base no valor atribuído a ela.
 
@@ -134,7 +134,7 @@ Neste exemplo, a função `soma` pode lidar com diferentes tipos de variáveis p
 
 A inferência de tipos em JavaScript é poderosa, mas também pode levar a comportamentos inesperados se não for utilizada com cuidado. É importante entender como os tipos são inferidos e como isso afeta o comportamento do seu código.
 
-### 5. Escopo de Variáveis:
+## 7. Escopo de Variáveis:
    - O escopo de uma variável refere-se à parte do código onde a variável pode ser referenciada.
    - **Escopo Global:**
      - Variáveis globais são declaradas fora de qualquer função ou bloco.
