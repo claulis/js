@@ -1,0 +1,10 @@
+body{display: flex; 
+    justify-content: center;
+    align-items: center;}
+
+div{width: 18%; background-color:beige;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+    border: 2px dashed black;}
+
